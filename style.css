@@ -186,7 +186,7 @@ ul li a:hover {
 
 .section1 {
     width: 100%;
-    min-height: 227vh;
+    min-height: 224vh;
     float: left;
     display: flex;
     justify-content: center;
@@ -286,7 +286,7 @@ ul li a:hover {
     width: 100%;
     min-height: 240px;
     float: left;
-    background-image: url("img/img2.jpg");
+    background-image: url("img/img2.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -453,4 +453,97 @@ ul li a:hover {
     background-color: #1226ba;
     color: #ffffff;
     transition: 0.5s;
+}
+.section2{
+    width: 100%;
+    min-height: 94vh;
+    float: left;
+    background-color: #FFD2DD;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.main_section2{
+    width: calc(100% - 500px);
+    min-height: inherit;
+    float: left;
+    display: flex;
+    align-items: center;
+}
+
+.left_section2{
+    width: 48%;
+    min-height: 51vh;
+    float: left;
+}
+
+.left_section2 h1{
+    padding-top: 40px;
+    font-size: 48px;
+    line-height: 64px;
+    color: #333333;
+}
+
+.left_section2 p{
+    font-size: 24px;
+    padding-top: 24px;
+    line-height: 32px;
+    order: 1;
+    color: #ffffff;
+}
+
+.right_section2{
+    width: 48%;
+    min-height: 40vh;
+    float: left;
+    margin-left: 4%;
+}
+
+.number{
+    width: 70px;
+    min-height: 37vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    float: left;
+    font-size: 12px;
+    line-height: 16px;
+    color: #333333;
+}
+
+.chart{
+    margin-left: 30px;
+    background-image: url("img/Chart.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 389px;
+    height: 43vh;
+    float: left;
+}
+
+.gap1{
+    margin-top: 15px;
+}
+.years{
+    height: 16px;
+    width: 420px;
+    display: flex;
+    padding-left: 110px;
+    gap: 44px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+#vector{
+    width: 500px;
+    height: 390px;
+    float: left;
+    background-image: url("img/Vector.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }

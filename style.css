@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Josefin Sans';
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav_bg {
@@ -31,7 +31,6 @@
     background-image: url("img/Shape.png");
     position: absolute;
     right: 0;
-    ;
     bottom: 0;
 }
 
@@ -71,7 +70,7 @@
 }
 
 .menu {
-    width: 37%;
+    width: 39%;
     min-height: 80px;
     float: left;
     padding: 20px 0;
@@ -102,7 +101,7 @@ ul li a:hover {
 
 .btns {
     min-height: 80px;
-    width: 30%;
+    width: 28%;
     display: flex;
     align-items: center;
     justify-content: right;
@@ -114,7 +113,8 @@ ul li a:hover {
     border: none;
     color: #ffffff;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 14px;
+    letter-spacing: 1px;
     font-weight: 700;
 }
 
@@ -132,7 +132,8 @@ ul li a:hover {
     margin-left: 10px;
     cursor: pointer;
     color: #5E4DCD;
-    font-size: 16px;
+    font-size: 14px;
+    letter-spacing: 1px;
     font-weight: 700;
 }
 
@@ -199,7 +200,7 @@ ul li a:hover {
     float: left;
 }
 
-.shape1{
+.shape1 {
     width: 220px;
     height: 220px;
     float: left;
@@ -211,7 +212,7 @@ ul li a:hover {
     left: 12px;
 }
 
-.shape2{
+.shape2 {
     width: 220px;
     height: 220px;
     float: left;
@@ -332,7 +333,7 @@ ul li a:hover {
     background-position: center;
 }
 
-.btn_house{
+.btn_house {
     text-transform: uppercase;
     margin: 22px 0 0 22px;
     padding: 8px 12px 6px;
@@ -347,12 +348,12 @@ ul li a:hover {
     cursor: pointer;
 }
 
-.btn_house:hover{
+.btn_house:hover {
     opacity: 1;
     transition: 0.5s;
 }
 
-.btn_business{
+.btn_business {
     text-transform: uppercase;
     margin: 24px 0 0 3px;
     padding: 8px 12px 6px;
@@ -368,7 +369,7 @@ ul li a:hover {
     cursor: pointer;
 }
 
-.btn_business:hover{
+.btn_business:hover {
     opacity: 1;
     transition: 0.5s;
 }
@@ -450,13 +451,14 @@ ul li a:hover {
 }
 
 .btn_view:hover {
-    background-color: #1226ba;
+    background-color: #5E4DCD;
     color: #ffffff;
     transition: 0.5s;
 }
-.section2{
+
+.section2 {
     width: 100%;
-    min-height: 94vh;
+    min-height: 100vh;
     float: left;
     background-color: #FFD2DD;
     display: flex;
@@ -464,7 +466,7 @@ ul li a:hover {
     position: relative;
 }
 
-.main_section2{
+.main_section2 {
     width: calc(100% - 500px);
     min-height: inherit;
     float: left;
@@ -472,35 +474,37 @@ ul li a:hover {
     align-items: center;
 }
 
-.left_section2{
+.left_section2 {
     width: 48%;
     min-height: 51vh;
     float: left;
 }
 
-.left_section2 h1{
+.left_section2 h1 {
     padding-top: 40px;
     font-size: 48px;
     line-height: 64px;
     color: #333333;
 }
 
-.left_section2 p{
+.left_section2 p {
     font-size: 24px;
     padding-top: 24px;
     line-height: 32px;
     order: 1;
     color: #ffffff;
+    position: absolute;
+    width: 490px;
 }
 
-.right_section2{
+.right_section2 {
     width: 48%;
     min-height: 40vh;
     float: left;
     margin-left: 4%;
 }
 
-.number{
+.number {
     width: 70px;
     min-height: 37vh;
     display: flex;
@@ -513,7 +517,7 @@ ul li a:hover {
     color: #333333;
 }
 
-.chart{
+.chart {
     margin-left: 30px;
     background-image: url("img/Chart.png");
     background-repeat: no-repeat;
@@ -521,12 +525,38 @@ ul li a:hover {
     width: 389px;
     height: 43vh;
     float: left;
+    position: relative;
 }
 
-.gap1{
+#group {
+    width: 150px;
+    height: 150px;
+    float: left;
+    background-image: url("img/Group.png");
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 90px;
+    top: 0;
+
+}
+
+#group1 {
+    width: 25px;
+    height: 40px;
+    float: left;
+    position: absolute;
+    bottom: 0;
+    right: -150px;
+    background-image: url("img/Group\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gap1 {
     margin-top: 15px;
 }
-.years{
+
+.years {
     height: 16px;
     width: 420px;
     display: flex;
@@ -536,7 +566,7 @@ ul li a:hover {
     line-height: 16px;
 }
 
-#vector{
+#vector {
     width: 500px;
     height: 390px;
     float: left;
@@ -547,3 +577,210 @@ ul li a:hover {
     bottom: 0;
     left: 0;
 }
+
+.section3 {
+    width: 100%;
+    min-height: 105vh;
+    float: left;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.main_section3 {
+    width: calc(100% - 500px);
+    height: 62vh;
+    padding-top: 180px;
+}
+
+.left_section3 {
+    width: 48%;
+    height: 57vh;
+    float: left;
+}
+
+.left_section3 h1 {
+    font-size: 48px;
+    line-height: 64px;
+    color: #333333;
+}
+
+.left_section3 p {
+    font-size: 24px;
+    line-height: 32px;
+    color: #999999;
+    order: 1;
+    padding-top: 24px;
+}
+
+.btn_apply {
+    width: 220px;
+    min-height: 60px;
+    line-height: 24px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    padding: 22px, 38px, 20px, 35px;
+    gap: 4px;
+    background-color: #5E4DCD;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+    border: 0;
+    margin-top: 49px;
+}
+
+.btn_apply:hover {
+    background-color: #333333;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.right_section3 {
+    width: 45%;
+    min-height: 62vh;
+    background-image: url("img/cuate.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: left;
+    margin-left: 7%;
+}
+
+.shape3 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background: url('img/Shape1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 145px;
+    right: 0px;
+}
+
+.footer{
+    width: 100%;
+    min-height: 66vh;
+    float: left;
+    background-color: #ECECEC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_footer{
+    width: calc(100% - 500px);
+    min-height: 54vh;
+}
+
+.FtrSecion1{
+    width: 330px;
+    height: 25vh;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.FtrSection2{
+    width: 110px;
+    height: 25vh;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    color: #333333;
+    line-height: 24px;
+    margin: 0 130px;
+}
+
+#spanFooter{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.FtrSection3{
+    width: 110px;
+    height: 25vh;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    color: #333333;
+    line-height: 24px;
+}
+
+.scr_down{
+    width: 50px;
+    height: 50px;
+    float: left;
+    background-color: #FFD2DD;
+    border-radius: 50%;
+    margin-left: 159px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: #5E4DCD;
+}
+
+.downFtr{
+    width: 100%;
+    min-height: 29vh;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.left_downFtr{
+    width: 35%;
+    height: 14vh;
+    float: left;
+    position: relative;
+}
+
+.left_downFtr p{
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+
+#email{
+    position: absolute;
+    margin-top: 24px;
+    padding: 10px 140px 10px 10px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #333333;
+    opacity: 0.5;
+}
+
+.email_btn{
+    width:  40px;
+    height: 40px;
+    float: left;
+    position: absolute;
+    top: 58px;
+    right: 54px;
+    border-radius: 0;
+    border: 0;
+    background-color: #5E4DCD;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.email_btn:hover{
+    background-color: #333333;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+

@@ -1451,11 +1451,7 @@ a,
 
 @media (max-width: 452px) {
     .section1 {
-<<<<<<< HEAD
         min-height: 415vh;
-=======
-        min-height: 510vh;
->>>>>>> 70e99b51704d70e8b3789b5ee33ca6a1f03b7de0
     }
 
     #group {
@@ -1510,11 +1506,7 @@ a,
     }
 
     .section3 {
-<<<<<<< HEAD
         min-height: 100vh;
-=======
-        min-height: 110vh;
->>>>>>> 70e99b51704d70e8b3789b5ee33ca6a1f03b7de0
         display: flex;
         align-items: center;
     }
@@ -1526,13 +1518,8 @@ a,
     }
 
     .right_section3 {
-<<<<<<< HEAD
         width: 350px;
         min-height: 40vh;
-=======
-        width: 100%;
-        min-height: 46vh;
->>>>>>> 70e99b51704d70e8b3789b5ee33ca6a1f03b7de0
     }
 
     .shape3 {
@@ -1541,13 +1528,10 @@ a,
 
     .main_section3 {
         width: 95%;
-        padding: 0;
-<<<<<<< HEAD
-        min-height: 70vh;
-=======
+        padding: 0; 
         min-height: 80vh;
->>>>>>> 70e99b51704d70e8b3789b5ee33ca6a1f03b7de0
     }
+
 
     .left_section3 {
         width: 100%;
